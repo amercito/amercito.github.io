@@ -1,0 +1,45 @@
+body {
+  background-color: #2A5365;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.navbar {
+  background-color: #E47566;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 50px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  color: #E47566;
+}
+
+.content {
+  padding: 50px;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
